@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 31
-    buildToolsVersion '30.0.3'
+    compileSdkVersion 32
+    buildToolsVersion '33.0.2'
 
     defaultConfig {
         minSdkVersion 21
@@ -26,6 +26,8 @@ android {
         jni.srcDirs = []
         jniLibs.srcDir 'src/main/libs'
     }
+
+    namespace 'org.beyka.tiffbitmapfactory'
 }
 
 android {

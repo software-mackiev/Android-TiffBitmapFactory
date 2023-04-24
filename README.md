@@ -1,4 +1,3 @@
-#Test
 # Android-TiffBitmapFactory
 TiffBitmapFactory is an Android library that allows opening and saving images in *.tif format (See [Wikipedia](https://en.wikipedia.org/wiki/Tagged_Image_File_Format)) on Android devices.
 
